@@ -30,7 +30,7 @@ seaborn
 requests
 ipython
 dxcam
-onnx
+onnx>==1.17.0
 onnx-simplifier
 dill
 serial
