@@ -36,6 +36,80 @@ This will download and install Python and set it in your system PATH.
 - Make sure `READ` & install all required packages by reading the `requirements.txt` file. 
 - Follow Directions
 
+## 🚀 NVIDIA Setup Instructions
+
+### Step 1: Install CUDA 11.8
+Download from: https://developer.nvidia.com/cuda-11-8-0-download-archive
+Run the `.exe` installer and make sure the following components are selected:
+- CUDA Toolkit
+- CUDA Samples
+- Visual Studio Integration (optional)
+- CUDA Documentation (optional)
+
+### Step 2: Reboot After Installation
+Restart your computer after installing CUDA Toolkit.
+
+### Step 3: Install cuDNN
+Download cuDNN from: https://developer.nvidia.com/downloads/compute/cudnn/secure/8.9.6/local_installers/
+Unzip it and move all contents into your CUDA directory:
+```
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8
+```
+Replace any existing files if prompted.
+
+### Step 4: Install TensorRT
+Download TensorRT from: https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/secure/
+Extract and copy all folders/files into the same CUDA directory:
+```
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8
+```
+Then run the following command:
+```bash
+pip install "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\python\tensorrt-8.6.1-cp311-none-win_amd64.whl"
+```
+Make sure the `.whl` matches your Python version (`cp311` = Python 3.11).
+
+### Step 5: Install CuPy for CUDA 11.8
+```bash
+pip install cupy-cuda11x
+```
+
+### Step 6: Add Environment Variables
+Add the following paths to your system's environment variables:
+```
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib
+```
+
+### Step 7: Verify GPU Availability in Python
+Run the following in a Python shell:
+```python
+import torch
+print(torch.cuda.is_available())
+print(torch.cuda.get_device_name(0))
+```
+This will confirm your GPU setup is recognized by PyTorch.
+
+### Step 8: Install Visual Studio 2022
+NVIDIA users must also install **Visual Studio 2022 Community Edition** to support compiler integration:
+[Download VS 2022](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/)
+- Select "Desktop development with C++" during installation
+
+---
+
+## 🔦 AMD Setup Instructions
+
+AMD users must also install **Visual Studio 2022 Community Edition**.
+
+### Step 1: Download Visual Studio 2022
+[Download VS 2022](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/)
+
+### Step 2: Install Desktop Development with C++
+In the installer:
+- Select "Desktop development with C++"
+- Install
+
 ### 3. Edit and Save Your Configuration
 Once the application is launched via `launcher.bat`, a graphical window will open.
 
