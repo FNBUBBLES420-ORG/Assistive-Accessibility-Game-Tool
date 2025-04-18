@@ -13,7 +13,7 @@ maskHeight = 240        # Height of the mask
 # Autoaim settings
 aaMovementAmp = 1.0     # Mouse movement amplifier (range: 0.1–5.0)
 aaQuitKey = "8"         # Key to quit and shut down autoaim
-aaActivationKey = VK_RBUTTON  # Key to toggle autoaim (default: right mouse button)
+aaActivationKey = VK_RBUTTON  # Key to toggle autoaim (default: right mouse button) ( change to any key or number you like ) 
 headshot_mode = True    # Aim slightly upwards for headshots
 
 # Confidence threshold
