@@ -129,17 +129,17 @@ again to relaunch the main application with the updated configuration.
 ## ✅ Required Python Packages (in `requirements.txt`)
 ```txt
 # torch without CUDA support is for AMD GPUs
-torch==2.6.0
-torchvision==0.21.0
-torchaudio==2.6.0
+torch>==2.6.0
+torchvision>==0.21.0
+torchaudio>==2.6.0
 # Uncomment the following lines if you are using Nvidia GPUs
-# torch==2.6.0+cu118
-# torchaudio==2.6.0+cu118
-# torchvision==0.21.0+cu118
+# torch>==2.6.0+cu118
+# torchaudio>==2.6.0+cu118
+# torchvision>==0.21.0+cu118
 numpy==1.26.4
 # uncomment if you have Nvidia gpu below 👇 
-# onnxruntime-gpu==1.17.0 # This is correct for this application 
-onnxruntime-directml==1.17.0
+# onnxruntime-gpu==1.15.1 # This is correct for this application 
+onnxruntime-directml==1.16.3
 opencv-python>==4.8.1.78
 comtypes
 customtkinter
@@ -160,7 +160,7 @@ seaborn
 requests
 ipython
 dxcam
-onnx
+onnx>==1.17.0
 onnx-simplifier
 dill
 serial
