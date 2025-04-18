@@ -2,19 +2,30 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This project only supports the exact versions listed below. Using other versions may cause compatibility issues, performance problems, or security vulnerabilities. Please stick with these versions for full support.
 
-| Version             | Supported          |
-| ------------------- | ------------------ |
-| 0.0.001579h21q      | ❌                 |
-| 0.0.001580h22r x    | ✅                 |
+### ✅ Supported Versions
 
 | Component                     | Status         |
 | ---------------------------- | -------------- |
-| CUDA 11.8 RECOMMENDED        | ✅              |
-| PYTHON 3.11.9 SUPPORTED      | ✅              |
-| onnxruntime-gpu==1.17.0      | ✅              |
-| onnxruntime-directml==1.17.0 | ✅              |
-| opencv-python==4.8.1.78      | ✅              |
+| CUDA 11.8                    | ✅ Recommended |
+| cuDNN 8.6                    | ✅ Supported   |
+| Python 3.11.9                | ✅ Supported   |
+| NumPy 1.26.4                 | ✅ Supported   |
+| onnxruntime-gpu 1.15.1       | ✅ Supported   |
+| onnxruntime-directml 1.15.1  | ✅ Supported   |
+| opencv-python 4.8.1.78       | ✅ Supported   |
+
+### ❌ Unsupported Versions
+
+| Component                     | Status         |
+| ---------------------------- | -------------- |
+| onnxruntime-gpu >= 1.17.0    | ❌ Not Supported |
+| onnxruntime-directml >= 1.17.0 | ❌ Not Supported |
+| NumPy anything above the current supported version | ❌ Not Supported |
+
+---
+
+Please make sure to use the officially supported versions listed above for full security and functionality.
+
 
