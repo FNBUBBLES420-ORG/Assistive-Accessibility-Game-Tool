@@ -227,6 +227,9 @@ Use the correct `onnxProvider` in `config.py` depending on your hardware:
 - Moves mouse for aim assist
 - Renders bounding boxes using OpenCV (no overlay script required)
 
+## Sceenshots
+<img src="https://github.com/FNBUBBLES420-ORG/Assistive-Accessibility-Game-Tool/blob/main/image-1.png" width="350">
+
 ## ❗ Important Notes
 - This software is intended as an **assistive tool** for gamers with physical or cognitive impairments.
 - Part of the nonprofit initiative by **FNBubbles420 Org**, a registered 501(c)(3) charity.
