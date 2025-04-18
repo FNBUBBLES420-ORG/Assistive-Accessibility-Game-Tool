@@ -9,12 +9,12 @@ This project only supports the exact versions listed below. Using other versions
 | Component                     | Status         |
 | ---------------------------- | -------------- |
 | CUDA 11.8                    | ✅ Recommended |
-| cuDNN 8.6                    | ✅ Recommended   |
+| cuDNN 8.6                    | ✅ Recommended / Supported  |
 | Python 3.11.9                | ✅ Supported   |
-| NumPy 1.26.4                 | ✅ Recommended   |
+| NumPy 1.26.4                 | ✅ Recommended / Supported  |
 | onnxruntime-gpu 1.17.0       | ✅ Supported   |
 | onnxruntime-directml 1.17.0  | ✅ Supported   |
-| opencv-python 4.8.1.78       | ✅ Recommended   |
+| opencv-python 4.8.1.78       | ✅ Recommended / Supported  |
 
 ### ❌ Unsupported Versions
 
