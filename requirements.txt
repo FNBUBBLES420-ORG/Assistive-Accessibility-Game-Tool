@@ -7,8 +7,8 @@ torchaudio==2.6.0
 # torchaudio==2.6.0+cu118
 # torchvision==0.21.0+cu118
 numpy==1.26.4 # This is correct for this application
-onnxruntime-gpu==1.15.1
-onnxruntime-directml==1.16.3
+onnxruntime-gpu==1.15.1 # This is correct for this application 
+onnxruntime-directml==1.16.3 # This is correct for this application 
 opencv-python>=4.8.1.78 # This is correct for this application
 comtypes
 customtkinter
