@@ -33,11 +33,8 @@ python3119.bat
 This will download and install Python and set it in your system PATH.
 
 ### 2. Install Requirements
-Make sure you install all required packages by running:
-```bat
-launcher.bat
-```
-This will execute `launcher.py`, which installs dependencies from `requirements.txt` and sets up the tool.
+- Make sure `READ` & install all required packages by reading the `requirements.txt` file. 
+- Follow Directions
 
 ### 3. Edit and Save Your Configuration
 Once the application is launched via `launcher.bat`, a graphical window will open.
