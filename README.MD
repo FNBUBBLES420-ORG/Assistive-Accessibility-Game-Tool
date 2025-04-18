@@ -137,7 +137,8 @@ torchaudio==2.6.0
 # torchaudio==2.6.0+cu118
 # torchvision==0.21.0+cu118
 numpy==1.26.4
-onnxruntime-gpu==1.16.3
+# uncomment if you have Nvidia gpu below 👇 
+# onnxruntime-gpu==1.15.1 # This is correct for this application 
 onnxruntime-directml==1.16.3
 opencv-python
 comtypes
@@ -160,8 +161,6 @@ requests
 ipython
 dxcam
 onnx
-# uncomment the following line if you are using Nvidia GPUs
-# onnxruntime-gpu
 onnx-simplifier
 dill
 serial
@@ -169,7 +168,6 @@ pyserial
 pyarmor
 # DirectML dependencies for Windows AMD GPUs
 # torch-directml
-# onnxruntime-directml==1.16.3
 ```
 
 ### 🔧 Configuration (`config.py` Example)
