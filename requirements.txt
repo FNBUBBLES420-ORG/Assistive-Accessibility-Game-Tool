@@ -6,10 +6,10 @@ torchaudio==2.6.0
 # torch==2.6.0+cu118
 # torchaudio==2.6.0+cu118
 # torchvision==0.21.0+cu118
-numpy==1.26.4
-onnxruntime-gpu==1.16.3
+numpy==1.26.4 # This is correct for this application
+onnxruntime-gpu==1.15.1
 onnxruntime-directml==1.16.3
-opencv-python
+opencv-python==4.7.0.72 # This is correct for this application
 comtypes
 customtkinter
 pandas
@@ -30,8 +30,6 @@ requests
 ipython
 dxcam
 onnx
-# uncomment the following line if you are using Nvidia GPUs
-# onnxruntime-gpu
 onnx-simplifier
 dill
 serial # for serial communication
@@ -40,4 +38,4 @@ pyarmor
 # DirectML dependencies for Windows AMD GPUs
 # uncomment the following lines if you are using AMD GPUs on Windows
 # torch-directml
-# onnxruntime-directml==1.16.3
+# onnxruntime-directml==1.15.1
