@@ -8,7 +8,7 @@ This project only supports the exact versions listed below. Using other versions
 
 | Component                     | Status         |
 | ---------------------------- | -------------- |
-| CUDA 11.8                    | ✅ Recommended |
+| CUDA 11.8                    | ✅ Recommended / Supported |
 | cuDNN 8.6                    | ✅ Recommended / Supported  |
 | Python 3.11.9                | ✅ Supported   |
 | NumPy 1.26.4                 | ✅ Recommended / Supported  |
