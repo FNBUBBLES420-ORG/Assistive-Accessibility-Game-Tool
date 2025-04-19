@@ -32,6 +32,6 @@ centerOfScreen = True  # Smarter selection of people based on screen center
 
 # ONNX model settings
 onnxProvider = 'CUDAExecutionProvider'  # Options: 'CUDAExecutionProvider', 'DmlExecutionProvider', 'CPUExecutionProvider'
-model_path = 'onnx-models/v5_mini_royale.onnx'  # Path to the ONNX model
+model_path = 'onnx-models/v5.onnx'  # Path to the ONNX model
 device = 'cuda'  # Device for inference: 'cuda' (NVIDIA GPU) or 'cpu' (AMD or no GPU)
 fp16 = True      # Use FP16 for faster inference (set to False for AMD GPUs)
